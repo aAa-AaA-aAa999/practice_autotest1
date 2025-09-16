@@ -11,7 +11,7 @@ public class BaseTest {
 
     protected static WebDriver driver; // поле класса
     private static String baseAddress = "http://217.74.37.176/?route=account/register&language=ru-ru";
-    static String email = "piipivnov@gmail.com";
+    static String email = "pipivnov@gmail.com";
 
     @BeforeClass
     public static void setUp() {
@@ -46,4 +46,5 @@ public class BaseTest {
         }
     }
 }
+
 
